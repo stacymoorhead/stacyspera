@@ -1,0 +1,37 @@
+[20-Apr-2018 16:22:09 UTC] PHP Fatal error:  Cannot redeclare my_theme_enqueue_styles() (previously declared in /home/ubuntu/workspace/wp-content/themes/vision-lite-child/functions.php:3) in /home/ubuntu/workspace/wp-content/themes/vision-lite-child/functions.php on line 20
+[20-Apr-2018 16:22:09 UTC] PHP Stack trace:
+[20-Apr-2018 16:22:09 UTC] PHP   1. {main}() /home/ubuntu/workspace/wp-admin/themes.php:0
+[20-Apr-2018 16:22:09 UTC] PHP   2. require_once() /home/ubuntu/workspace/wp-admin/themes.php:10
+[20-Apr-2018 16:22:09 UTC] PHP   3. require_once() /home/ubuntu/workspace/wp-admin/admin.php:31
+[20-Apr-2018 16:22:09 UTC] PHP   4. require_once() /home/ubuntu/workspace/wp-load.php:37
+[20-Apr-2018 16:22:09 UTC] PHP   5. require_once() /home/ubuntu/workspace/wp-config.php:92
+[20-Apr-2018 16:22:18 UTC] PHP Fatal error:  Cannot redeclare my_theme_enqueue_styles() (previously declared in /home/ubuntu/workspace/wp-content/themes/vision-lite-child/functions.php:3) in /home/ubuntu/workspace/wp-content/themes/vision-lite-child/functions.php on line 20
+[20-Apr-2018 16:22:18 UTC] PHP Stack trace:
+[20-Apr-2018 16:22:18 UTC] PHP   1. {main}() /home/ubuntu/workspace/wp-admin/themes.php:0
+[20-Apr-2018 16:22:18 UTC] PHP   2. require_once() /home/ubuntu/workspace/wp-admin/themes.php:10
+[20-Apr-2018 16:22:18 UTC] PHP   3. require_once() /home/ubuntu/workspace/wp-admin/admin.php:31
+[20-Apr-2018 16:22:18 UTC] PHP   4. require_once() /home/ubuntu/workspace/wp-load.php:37
+[20-Apr-2018 16:22:18 UTC] PHP   5. require_once() /home/ubuntu/workspace/wp-config.php:92
+[20-Apr-2018 16:23:19 UTC] PHP Fatal error:  Cannot redeclare my_theme_enqueue_styles() (previously declared in /home/ubuntu/workspace/wp-content/themes/vision-lite-child/functions.php:3) in /home/ubuntu/workspace/wp-content/themes/vision-lite-child/functions.php on line 20
+[20-Apr-2018 16:23:19 UTC] PHP Stack trace:
+[20-Apr-2018 16:23:19 UTC] PHP   1. {main}() /home/ubuntu/workspace/wp-admin/themes.php:0
+[20-Apr-2018 16:23:19 UTC] PHP   2. require_once() /home/ubuntu/workspace/wp-admin/themes.php:10
+[20-Apr-2018 16:23:19 UTC] PHP   3. require_once() /home/ubuntu/workspace/wp-admin/admin.php:31
+[20-Apr-2018 16:23:19 UTC] PHP   4. require_once() /home/ubuntu/workspace/wp-load.php:37
+[20-Apr-2018 16:23:19 UTC] PHP   5. require_once() /home/ubuntu/workspace/wp-config.php:92
+[20-Apr-2018 18:23:57 UTC] PHP Parse error:  syntax error, unexpected 'array' (T_ARRAY) in /home/ubuntu/workspace/wp-content/themes/vision-lite/inc/customizer.php on line 191
+[20-Apr-2018 18:23:57 UTC] PHP Stack trace:
+[20-Apr-2018 18:23:57 UTC] PHP   1. {main}() /home/ubuntu/workspace/wp-admin/customize.php:0
+[20-Apr-2018 18:23:57 UTC] PHP   2. require_once() /home/ubuntu/workspace/wp-admin/customize.php:13
+[20-Apr-2018 18:23:57 UTC] PHP   3. require_once() /home/ubuntu/workspace/wp-admin/admin.php:31
+[20-Apr-2018 18:23:57 UTC] PHP   4. require_once() /home/ubuntu/workspace/wp-load.php:37
+[20-Apr-2018 18:23:57 UTC] PHP   5. require_once() /home/ubuntu/workspace/wp-config.php:92
+[20-Apr-2018 18:23:57 UTC] PHP   6. include() /home/ubuntu/workspace/wp-settings.php:424
+[20-Apr-2018 18:25:09 UTC] PHP Parse error:  syntax error, unexpected 'array' (T_ARRAY) in /home/ubuntu/workspace/wp-content/themes/vision-lite/inc/customizer.php on line 191
+[20-Apr-2018 18:25:09 UTC] PHP Stack trace:
+[20-Apr-2018 18:25:09 UTC] PHP   1. {main}() /home/ubuntu/workspace/wp-admin/customize.php:0
+[20-Apr-2018 18:25:09 UTC] PHP   2. require_once() /home/ubuntu/workspace/wp-admin/customize.php:13
+[20-Apr-2018 18:25:09 UTC] PHP   3. require_once() /home/ubuntu/workspace/wp-admin/admin.php:31
+[20-Apr-2018 18:25:09 UTC] PHP   4. require_once() /home/ubuntu/workspace/wp-load.php:37
+[20-Apr-2018 18:25:09 UTC] PHP   5. require_once() /home/ubuntu/workspace/wp-config.php:92
+[20-Apr-2018 18:25:09 UTC] PHP   6. include() /home/ubuntu/workspace/wp-settings.php:424

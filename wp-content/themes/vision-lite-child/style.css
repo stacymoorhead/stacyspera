@@ -1,0 +1,33 @@
+/*
+ Theme Name:   Vision Lite Child
+ Theme URI:    https://wordpress.org/themes/vision-lite/
+ Description:  Vision Lite Child Theme
+ Author:       Stacy Moorhead
+ Author URI:   http://www.stacylauren.com
+ Template:     vision-lite
+ Version:      1.0.0
+ License:      GNU General Public License v2 or later
+ License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+ Tags:         Custom Background, Custom Header, Custom Menu, Featured Images, Full Width Template, Holiday, One Column, Photography, Right Sidebar, Theme Options, Threaded Comments, Translation Ready, Two Columns
+ Text Domain:  vision-lite-child
+ */
+ 
+ .header_right {
+     display: flex;
+ }
+ 
+ .email {
+     float: left;
+     clear: none;
+ }
+ 
+ .logo {
+     font-family: Satisfy, cursive;
+ }
+ 
+ 
+@media screen and (max-width: 999px) and (min-width: 720px) {
+    .email {
+        display: none;
+    }
+}
