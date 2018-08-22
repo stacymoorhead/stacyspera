@@ -12,6 +12,10 @@
  Text Domain:  vision-lite-child
  */
  
+ h1, h2, h3, h4, h5, h6 {
+     color: #444444;
+ }
+ 
  .header_right {
      display: flex;
  }
@@ -23,11 +27,73 @@
  
  .logo {
      font-family: Satisfy, cursive;
+     display: flex;
  }
  
+ .logo img {
+    height: auto;
+    width: 60px;
+}
  
-@media screen and (max-width: 999px) and (min-width: 720px) {
+ .pink-text {
+     color: #d91c6f;
+     font-weight: 800;
+ }
+ 
+ .no-sidebar {
+     margin: 0 auto !important;
+ }
+ 
+ .middle-align {
+     display: flex;
+ }
+ 
+ .nivoSlider {
+     max-height: 600px;
+ }
+ 
+ .header-top .sitenav ul li a:hover {
+    color: #d91c6f !important;
+}
+
+strong {
+    color: #444444;
+}
+ 
+ 
+@media screen and (max-width: 999px) {
     .email {
         display: none;
     }
+    
+    .logo {
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+.column-2 {
+    width: 100px;
+    text-align: right !important;
+}
+
+/*
+ * Let's target IE to respect aspect ratios and sizes for img tags containing SVG files
+ *
+ * [1] IE9
+ * [2] IE10+
+ */
+/* 1 */
+.ie9 img[src$=".svg"] {
+  width: 100%; 
+  position: absolute;
+  left: 150%;
+}
+/* 2 */
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+  img[src$=".svg"] {
+    width: 100%; 
+    position: absolute;
+    left: 150%;
+  }
 }

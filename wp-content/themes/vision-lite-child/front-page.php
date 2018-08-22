@@ -59,7 +59,7 @@ get_header();
                                 <?php } ?>
 							<h3><?php the_title(); ?></h3>				
 								<p><?php the_excerpt(); ?></p>
-								<a class="ReadMore" href="<?php the_permalink(); ?>"><?php _e('Read More','vision-lite'); ?></a>				
+								<a class="ReadMore" href="<?php the_permalink(); ?>"><?php _e('Learn More','vision-lite'); ?></a>				
                 </div>
                 <?php endwhile; ?>
                 <?php }} ?>

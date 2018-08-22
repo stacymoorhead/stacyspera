@@ -1,0 +1,23 @@
+body#tinymce.wp-editor { 
+    font: 15px/22px 'Montserrat', sans-serif;
+    font-weight: 400;
+    color: #7c7b79;
+    margin: 10px; 
+}
+
+body#tinymce.wp-editor a {
+    color: #d91c6f;
+}
+
+body#tinymce.wp-editor h1, body#tinymce.wp-editor h2, body#tinymce.wp-editor h3, body#tinymce.wp-editor h4, body#tinymce.wp-editor h5, body#tinymce.wp-editor h6 {
+     color: #444444;
+ }
+
+ .pink-text {
+     color: #d91c6f;
+     font-weight: 800;
+ }
+
+body#tinymce.wp-editor strong {
+    color: #444444;
+}
